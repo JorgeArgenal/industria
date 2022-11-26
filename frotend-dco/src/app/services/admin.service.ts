@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class AdminService {
 
-  url = 'http://localhost:4000/admin';
+  url = '/back/admin';
 
   constructor(
     private http: HttpClient
