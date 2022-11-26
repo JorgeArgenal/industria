@@ -31,7 +31,7 @@ app.use('/admin/',require('./routes/admin'));
 app.use('/api/paginas',require('./routes/pagina'));
 
 
-app.listen(4000, () => {
+app.listen(3000, () => {
     console.log('El servidor esta corriendo perfectamente');
 });
 
